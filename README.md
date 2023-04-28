@@ -1,13 +1,21 @@
-# Preact with Bun runtime
+# Preact TS with Bun runtime
 
-This is a Preact project bootstrapped with [bun](https://bun.sh/).
+This is a simple template for starting a Preact project bootstrapped with bun [bun](https://bun.sh/), with TypeScript instead of the default JavaScript configuration.
 
 ## Getting Started
 
 ### Cloning the repo
 
+To create a TS Preact project with bun:
+
 ```sh
-bun create preact ./preact-bun-app
+bun create johanneslil/bun-preact-ts ./bun-preact-ts-app
+```
+
+To create a regular JS Preact project with bun:
+
+```sh
+bun create preact ./bun-preact-app
 ```
 
 ### Development
@@ -20,7 +28,7 @@ bun dev
 
 Open http://localhost:3000 with your browser to see the result.
 
-You can start editing the page by modifying `src/app.jsx`. The page auto-updates as you edit the file.
+You can start editing the page by modifying `src/app.tsx`. The page auto-updates as you edit the file.
 
 ## Learn More
 

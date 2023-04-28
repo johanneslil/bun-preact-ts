@@ -1,14 +1,20 @@
 {
-    "compilerOptions": {
-        "jsxImportSource": "preact",
-        "jsxFactory": "h",
-        "jsxFragmentFactory": "Fragment",
-        "baseUrl": ".",
-        "paths": {
-            "react": ["node_modules/preact/compat"],
-        },
+  "compilerOptions": {
+    "jsxImportSource": "preact",
+    "jsx": "react-jsx",
+    "baseUrl": "./",
+    "skipLibCheck": true,
+    "paths": {
+      "react": ["node_modules/preact/compat"],
+      "react-dom": ["./node_modules/preact/compat/"]
     },
-    "include": [
-        "src"
-    ]
+    "typeRoots": ["src/types", "./node_modules/@types"]
+  },
+  "resolve": {
+    "extensions": [".js", ".jsx", ".ts", ".tsx", ".json", ".svg", ".css"]
+  },
+  "include": ["src"],
+  "scripts": {
+    "start": "bun dev"
+  }
 }
