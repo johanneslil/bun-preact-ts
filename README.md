@@ -1,6 +1,6 @@
 # Preact TS with Bun runtime
 
-This is a simple template for starting a Preact project bootstrapped with bun [bun](https://bun.sh/), with TypeScript instead of the default JavaScript configuration.
+This is a simple template for starting a Preact project bootstrapped with [bun](https://bun.sh/), with TypeScript instead of the default JavaScript configuration.
 
 ## Getting Started
 
