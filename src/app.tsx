@@ -1,5 +1,6 @@
 import { useState } from "preact/hooks"
 import preactLogo from "./assets/preact.svg"
+import typescriptLogo from "./assets/typescript.svg"
 import styles from "./app.module.css"
 
 export function App() {
@@ -14,8 +15,11 @@ export function App() {
         <a href="https://preactjs.com" target="_blank">
           <img src={preactLogo} class="logo preact" alt="Preact logo" />
         </a>
+        <a href="https://www.typescriptlang.org/" target="_blank">
+          <img src={typescriptLogo} class="logo" alt="TypeScript logo" />
+        </a>
       </div>
-      <h1>Bun + Preact</h1>
+      <h1>Bun + Preact + TypeScript</h1>
       <div class={styles.card}>
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
