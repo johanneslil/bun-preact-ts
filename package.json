@@ -1,0 +1,11 @@
+{
+  "name": "bun-preact-ts",
+  "version": "0.0.5",
+  "type": "module",
+  "devDependencies": {
+    "bun-types": "^0.5.0"
+  },
+  "dependencies": {
+    "preact": "^10.13.0"
+  }
+}
