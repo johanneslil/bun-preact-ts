@@ -13,8 +13,5 @@
   "resolve": {
     "extensions": [".js", ".jsx", ".ts", ".tsx", ".json", ".svg", ".css"]
   },
-  "include": ["src"],
-  "scripts": {
-    "start": "bun dev"
-  }
+  "include": ["src"]
 }
